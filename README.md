@@ -39,3 +39,36 @@ Durante as 1000 épocas de treino, o modelo reduziu o erro (*loss*) de forma con
 Época [600/1000]  - Loss: 0.000601
 Época [800/1000]  - Loss: 0.000090
 Época [1000/1000] - Loss: 0.000016
+
+Exemplo de Inferência (Previsão):
+Entrada de Teste: [20.26, 5.0]
+
+Resultado Previsto pela IA: 45.54
+
+⚙️ Como Executar o Projeto Localmente
+Clonar o repositório:
+
+Bash
+git clone [https://github.com/lucianorviana75/ltg-matrix-758211.git](https://github.com/lucianorviana75/ltg-matrix-758211.git)
+cd ltg-matrix-758211
+Criar e ativar o ambiente virtual:
+
+Bash
+python3 -m venv env_ia
+source env_ia/bin/activate  # Linux / macOS
+# .\env_ia\Scripts\Activate.ps1 # Windows
+Instalar as dependências:
+
+Bash
+pip install -r requirements.txt
+Executar o treino e a inferência:
+
+Bash
+python main.py
+👨‍💻 Autor
+Desenvolvido por Luciano Ribeiro Viana.
+
+
+---
+
+
