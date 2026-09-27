@@ -1,0 +1,14 @@
+# Ignorar o ambiente virtual
+env_ia/
+venv/
+.venv/
+
+# Ignorar ficheiros temporários do Python e VS Code
+__pycache__/
+*.pyc
+.vscode/
+
+# Ignorar pesos de modelos salvos
+*.pt
+*.pth
+*.onnx
